@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: rgb(10, 9, 9);
+}
+header{
+    outline: solid 1pt orangered;
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 64pt auto 64pt;
+    height: 64pt;
+    width: 100%;
+    transition: opacity 1s ease-in-out;
+    
+    
+    
+    
+}
+main{
+   
+    display: grid;
+    grid-template-columns: 64pt auto 64pt;
+    grid-template-rows: 100% 100% 100%;
+}
+main div{
+    
+    outline: solid 1pt orangered;
+    display: inline-block;
+    height: 1000px;
+}
+ 
+#logo a{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}    
+    
+#search{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 64pt;
+    height: 64pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}    
+#search a{
+    display: block;
+    padding: 5px;
+    border: 0pt;
+    background-color: rgba(255, 255, 255, 0);
+    
+   
+
+}
+#center{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#menu a{
+
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 1pt;
+    font-weight: bold;
+    transition: border-bottom-width 1s;
+}
+
+#menu a:hover{
+    
+    border-bottom-width: 2pt ;
+    border-bottom-style: solid;
+    border-bottom-color: orangered;
+}
+#menu li{
+    display: inline;
+    
+    
+}
+
+h1{
+    padding: 10px;
+    color: blanchedalmond;
+    font-size: 18pt;
+}
+#bloddy{
+    color: red;
+}
